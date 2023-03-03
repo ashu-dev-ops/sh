@@ -1,0 +1,47 @@
+.brands{
+    min-height: 60vh;
+
+    width: 100%;
+    padding: 10%;
+    padding: 15vh 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        height: 6.5vh;
+        filter: grayscale(100%);
+
+    }
+    .container{
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // s
+    .brands-img{
+        padding: 2vmax;
+        display: flex;
+        flex-direction: column;
+        gap: 1vmax;
+    }
+
+    .first-brand-row{
+        display: flex;
+        gap: 6vmax;
+       
+    }
+        h2{
+            font-weight: 600;
+            font-size: 3.5vw;
+        }
+        p{
+            font-size: 2vw;
+            font-weight: 450;
+        }
+        
+    }
+}

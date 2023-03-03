@@ -1,0 +1,37 @@
+body{
+    position: relative;
+ 
+    .responsive-nave{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        transform: translateX(100%);
+        background-color: #eeeeee;
+        z-index: 500;
+        transition: all 1s;
+        .r-nav{
+            flex-direction: column;
+            gap: 4vmax;
+            padding-top: 10vh;
+            img{
+                height: 0px;
+            }
+
+        }
+        .nav-list-1{
+            display: flex;
+            flex-direction: column;
+            gap: 5vmax;
+            width: 100%;
+           
+            li{
+                font-size: 3vmax;
+                list-style: none;
+                font-weight: 800;
+                text-align: left;
+                border-bottom: 1px solid #8f9191;
+            }
+        }
+    }
+}
